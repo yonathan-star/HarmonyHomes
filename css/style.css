@@ -62,7 +62,6 @@ a { text-decoration: none; color: inherit; }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
 }
 
 .nav-logo-text {
@@ -284,7 +283,7 @@ a { text-decoration: none; color: inherit; }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  color: var(--gold);
   margin-bottom: 20px;
 }
 
@@ -568,7 +567,7 @@ a { text-decoration: none; color: inherit; }
   transform: translate(-50%, -50%);
 }
 
-.cs-icon { font-size: 64px; margin-bottom: 24px; position: relative; }
+.cs-icon { display: none; }
 .cs-badge {
   display: inline-block;
   background: rgba(200,134,10,0.12);
@@ -676,7 +675,7 @@ a { text-decoration: none; color: inherit; }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  color: var(--gold);
   flex-shrink: 0;
 }
 
